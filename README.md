@@ -1,38 +1,38 @@
-# 🛒 Grocery Inventory Calculator & Store Management System
+# Grocery Inventory Calculator & Store Management System
 
 [![Java Version](https://img.shields.io/badge/Java-17%20%7C%2021%20LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Architecture](https://img.shields.io/badge/Architecture-CLI%20%26%20Swing%20GUI-2B7489?style=for-the-badge)](https://github.com/Ankitraj-17/Java-Final-Project)
 [![License](https://img.shields.io/badge/License-Academic%20Project-green?style=for-the-badge)](LICENSE)
 
-A complete, production-grade retail inventory tracking and financial valuation suite developed in Java. The project solves inventory management challenges for grocery stores—including manual stock miscalculations, sudden stock-outs, and untracked capital—by offering **two distinct operational versions**:
+A complete retail inventory tracking and financial valuation suite developed in Java. The project addresses inventory management challenges for grocery stores—including manual stock miscalculations, sudden stock-outs, and untracked capital—by offering **two distinct operational versions**:
 
-1. 💻 **Console-Only CLI Version** (`GroceryInventoryCalculator.java`): A pure, zero-dependency, menu-driven command-line system built strictly on foundational Java core primitives (parallel 1D arrays, deterministic loops, robust defensive scanner input).
-2. 🖥️ **Graphical User Interface (GUI) Version** (`GroceryInventoryGUI.java` & `InventoryManager.java`): An interactive desktop application built with Java Swing and AWT, engineered with a decoupled business logic model, tabbed navigation, real-time data tables, and dynamic visual stock alerts.
+1. **Console-Only CLI Version** (`GroceryInventoryCalculator.java`): A pure, zero-dependency, menu-driven command-line system built strictly on foundational Java core primitives (parallel 1D arrays, deterministic loops, robust defensive scanner input).
+2. **Graphical User Interface (GUI) Version** (`GroceryInventoryGUI.java` & `InventoryManager.java`): An interactive desktop application built with Java Swing and AWT, engineered with a decoupled business logic model, tabbed navigation, real-time data tables, and dynamic visual stock alerts.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Two Implementations](#-two-implementations)
+- [Project Overview](#project-overview)
+- [Two Implementations](#two-implementations)
   - [Version 1: Console-Only Version (CLI)](#version-1-console-only-version-cli)
   - [Version 2: Desktop GUI Version (Swing)](#version-2-desktop-gui-version-swing)
-- [Core Features & Modules](#-core-features--modules)
-- [Architecture & Technical Design](#-architecture--technical-design)
-- [Project File Structure](#-project-file-structure)
-- [Prerequisites & System Requirements](#-prerequisites--system-requirements)
-- [Compilation & Execution Guide](#-compilation--execution-guide)
+- [Core Features & Modules](#core-features--modules)
+- [Architecture & Technical Design](#architecture--technical-design)
+- [Project File Structure](#project-file-structure)
+- [Prerequisites & System Requirements](#prerequisites--system-requirements)
+- [Compilation & Execution Guide](#compilation--execution-guide)
   - [Running the Console-Only Version](#1-running-the-console-only-version)
   - [Running the GUI Version](#2-running-the-gui-version)
   - [Using Visual Studio Code](#3-using-visual-studio-code)
-- [CLI Workflow & Sample Output](#-cli-workflow--sample-output)
-- [GUI Capabilities & User Experience](#-gui-capabilities--user-experience)
-- [Academic Case Study Alignment](#-academic-case-study-alignment)
-- [Author & Credits](#-author--credits)
+- [CLI Workflow & Sample Output](#cli-workflow--sample-output)
+- [GUI Capabilities & User Experience](#gui-capabilities--user-experience)
+- [Academic Case Study Alignment](#academic-case-study-alignment)
+- [Author & Credits](#author--credits)
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 Managing grocery stock is a daily mission-critical operational task. Small-to-medium retail stores often suffer from stock discrepancies, expired shelf life, inventory shrinkage, and lack of visibility into inventory asset values. 
 
@@ -45,7 +45,7 @@ The **Grocery Inventory Calculator** delivers a dependable, high-precision solut
 
 ---
 
-## 🔀 Two Implementations
+## Two Implementations
 
 This repository includes two parallel, full-featured implementations tailored for different runtime requirements and design patterns:
 
@@ -57,7 +57,7 @@ This repository includes two parallel, full-featured implementations tailored fo
   - Implements all business modules (Modules 1–5) in a single, self-contained executable class.
   - Relies solely on **synchronized parallel 1D arrays** (`names[]`, `prices[]`, `quantities[]`, `minStock[]`) without relying on the Java Collections Framework (`ArrayList`, `HashMap`), strictly matching foundational computer science criteria.
   - Employs defensive `Scanner` stream reading to prevent newline buffer issues (`InputMismatchException`).
-  - Interactive, ANSI-styled menu navigation with input validation loops.
+  - Interactive menu navigation with input validation loops.
 
 ### Version 2: Desktop GUI Version (Swing)
 * **Source Files**: `GroceryInventoryGUI.java` (Presentation Layer) and `InventoryManager.java` (Business Logic Layer)
@@ -72,7 +72,7 @@ This repository includes two parallel, full-featured implementations tailored fo
 
 ---
 
-## ✨ Core Features & Modules
+## Core Features & Modules
 
 | Module # | Module Name | Description | Logic / Formula |
 | :---: | :--- | :--- | :--- |
@@ -84,7 +84,7 @@ This repository includes two parallel, full-featured implementations tailored fo
 
 ---
 
-## 🏛️ Architecture & Technical Design
+## Architecture & Technical Design
 
 ```
 +-----------------------------------------------------------------------------------+
@@ -135,7 +135,7 @@ Instead of utilizing dynamic high-level collections, both versions demonstrate c
 
 ---
 
-## 📂 Project File Structure
+## Project File Structure
 
 ```
 Java-Final-Project/
@@ -149,7 +149,7 @@ Java-Final-Project/
 
 ---
 
-## 💻 Prerequisites & System Requirements
+## Prerequisites & System Requirements
 
 ### Hardware Requirements
 - **Processor**: Any x86/x64 or ARM processor (Intel Core i3+, AMD Ryzen, or Apple Silicon M1/M2/M3/M4).
@@ -168,7 +168,7 @@ Java-Final-Project/
 
 ---
 
-## 🚀 Compilation & Execution Guide
+## Compilation & Execution Guide
 
 Clone the repository to your local machine:
 ```bash
@@ -206,17 +206,16 @@ java GroceryInventoryGUI
 
 ### 3. Using Visual Studio Code
 
-Pre-configured run profiles are provided in `.vscode/launch.json`. In VS Code:
 1. Open the project root folder in VS Code (`File > Open Folder...`).
 2. Press `Ctrl+Shift+D` (or `Cmd+Shift+D` on macOS) to navigate to the **Run & Debug** tab.
 3. Select either:
    - **Launch GroceryInventoryCalculator (Console)**
    - **Launch GroceryInventoryGUI (Swing GUI)**
-4. Click the green **Play** button or hit `F5`.
+4. Click the **Play** button or press `F5`.
 
 ---
 
-## 🖥️ CLI Workflow & Sample Output
+## CLI Workflow & Sample Output
 
 ### Main Menu Interface
 ```text
@@ -277,7 +276,7 @@ Total Inventory Value   : Rs. 10926.00
 
 ---
 
-## 🎨 GUI Capabilities & User Experience
+## GUI Capabilities & User Experience
 
 The Swing GUI version (`GroceryInventoryGUI.java`) enhances the store management experience:
 
@@ -290,7 +289,7 @@ The Swing GUI version (`GroceryInventoryGUI.java`) enhances the store management
 
 ---
 
-## 🎓 Academic Case Study Alignment
+## Academic Case Study Alignment
 
 This project was developed in satisfaction of **Case Study 161 (Grocery Inventory Calculator)** under the B.Tech Computer Science & Engineering curriculum at **ITM Skills University**:
 
@@ -306,7 +305,7 @@ For detailed analysis, pseudocode, and mathematical formulation, refer to the [A
 
 ---
 
-## 👨‍💻 Author & Credits
+## Author & Credits
 
 * **Developer**: Ankit Raj Jha
 * **Course**: Java Programming (B.Tech CSE)
@@ -316,4 +315,4 @@ For detailed analysis, pseudocode, and mathematical formulation, refer to the [A
 
 ---
 
-⭐ *If you found this project helpful for learning Java fundamentals, parallel array architecture, or Swing GUI development, please consider giving this repository a star!*
+*If you found this project helpful for learning Java fundamentals, parallel array architecture, or Swing GUI development, please consider giving this repository a star!*
