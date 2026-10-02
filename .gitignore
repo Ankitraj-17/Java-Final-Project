@@ -1,0 +1,15 @@
+# Bytecode & Compiled artifacts
+*.class
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs and scratch
+*.log
+scratch/

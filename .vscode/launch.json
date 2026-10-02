@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch GroceryInventoryCalculator (Console)",
+            "request": "launch",
+            "mainClass": "GroceryInventoryCalculator",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch GroceryInventoryGUI (Swing GUI)",
+            "request": "launch",
+            "mainClass": "GroceryInventoryGUI",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

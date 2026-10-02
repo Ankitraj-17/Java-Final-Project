@@ -1,0 +1,17 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+    },
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.project.referencedLibraries": [
+        "/Users/ankitrajjha/Downloads/javafx-sdk-26.0.2/lib/*.jar"
+    ],
+    "java.debug.settings.console": "integratedTerminal",
+    "files.exclude": {
+        "**/*.class": true
+    }
+}
