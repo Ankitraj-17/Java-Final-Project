@@ -143,9 +143,6 @@ Java-Final-Project/
 ├── GroceryInventoryGUI.java                   # Version 2: Modern Java Swing Desktop GUI interface
 ├── InventoryManager.java                      # Version 2: Core headless business logic & data model
 ├── Grocery_Inventory_Calculator_Case_Study_Report.md  # Formal Academic Case Study Report (CS161)
-├── .vscode/
-│   ├── launch.json                            # VS Code debug & run configurations
-│   └── settings.json                          # IDE Java runtime settings
 ├── .gitignore                                 # Git rules excluding .class and OS binaries
 └── README.md                                  # Comprehensive documentation (this file)
 ```
