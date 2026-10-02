@@ -307,7 +307,7 @@ For detailed analysis, pseudocode, and mathematical formulation, refer to the [A
 
 ## Author & Credits
 
-* **Developer**: Ankit Raj Jha
+* **Developer**: Ankitraj Jha
 * **Course**: Java Programming (B.Tech CSE)
 * **Institution**: School of Future Tech, ITM Skills University
 * **GitHub**: [@Ankitraj-17](https://github.com/Ankitraj-17)
